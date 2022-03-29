@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &72812894 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4927827261680791697, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+  m_PrefabInstance: {fileID: 5814128613170640579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +212,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &559416699 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5347154178875405409, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+  m_PrefabInstance: {fileID: 5814128613170640579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &648833322
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,13 +978,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768909661935799895, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: m_TagString
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959849110783836703, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"BallSpawnAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WinAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959849110783836703, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959849110783836703, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 559416699}
+    - target: {fileID: 2959849110783836703, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 72812894}
     - target: {fileID: 5570290575917000712, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5570290576974370474, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5814128613382725488, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
       propertyPath: m_Name
@@ -1022,6 +1050,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5814128613382725493, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869478729977703925, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915554656461331090, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._json
+      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915554656461331090, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915554656461331090, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6defff27b518d1c4394fa362797aa078, type: 2}
+    - target: {fileID: 8008279806258127831, guid: 5b776a4209d35ba4485fa1d7b2301298, type: 3}
+      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
